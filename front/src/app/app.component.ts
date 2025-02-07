@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { NewPostComponent } from './posts/new-post/new-post.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [NewPostComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
