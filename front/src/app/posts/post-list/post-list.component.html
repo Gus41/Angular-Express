@@ -1,0 +1,11 @@
+<div class="posts">
+    @for (post of posts; track $index) {
+
+        <mat-expansion-panel hideToggle>
+            <mat-expansion-panel-header>
+                <mat-panel-title>{{post.title}}</mat-panel-title>
+            </mat-expansion-panel-header>
+            <p>{{post.content}}</p>
+        </mat-expansion-panel>
+        }
+</div>
